@@ -2,12 +2,12 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="application.TelaPrincipalController">
+<GridPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelaPrincipalController">
    <rowConstraints>
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
@@ -19,5 +19,6 @@
    <children>
       <Button fx:id="botao" mnemonicParsing="false" onAction="#executar" text="OK" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Label fx:id="campo" text="Nome" />
+      <TextField GridPane.columnIndex="1" />
    </children>
 </GridPane>

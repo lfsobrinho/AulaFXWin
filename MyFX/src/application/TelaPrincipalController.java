@@ -15,7 +15,7 @@ public class TelaPrincipalController {
 
     @FXML
     void executar(ActionEvent event) {
-    	System.out.println(campo.getText());
+
     }
 
 }
